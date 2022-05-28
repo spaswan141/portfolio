@@ -232,7 +232,7 @@ const Experience = ({ darkMode }) => {
                           />
                           <Card.Body>
                             <Card.Title align="center">
-                              -Clone of Healthmug-
+                              -Clone of Lumen5-
                             </Card.Title>
                             <Card.Text>
                               <td style={{ fontSize: "14px" }}>
