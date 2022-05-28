@@ -9,11 +9,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAdjust } from "@fortawesome/free-solid-svg-icons";
 import "./components/styles.css";
 import "./components/button.css";
-
+import  logo from "./media/s.png"
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const toggleDarkMode = () => setDarkMode(darkMode ? false : true);
  
+
 return (
     <div className="App" data-theme={darkMode ? "dark" : "light"}>
       <Navbar
@@ -22,8 +23,8 @@ return (
         data-theme={darkMode ? "dark" : "light"}
       >
         <img
-          style={{ width: "5%", height: "2%", marginLeft: "1%" }}
-          src="https://o.remove.bg/downloads/846efb66-694b-4cdf-99ab-e5c82e55479f/images-removebg-preview.png"
+          style={{ width: "10%", height: "5%", marginLeft: "1%" }}
+          src={logo}
           alt=""
         />
         <Navbar.Brand href="#home" className="navname">
