@@ -43,7 +43,7 @@ const [templateParams, setTemplateParams] = useState({
                 <Row>
                     <Col lg={4}>
                         <br></br>
-                        <h2 className="lead">Contact me!</h2>
+                        <h2 className="lead"><span>Contact me!</span></h2>
                         <p className="contact-text">Drop a suggestion, feedback, opportunities or we can colaborate on a project. Please mention your contact details if you are expecting a reply.</p>
 
                         <h2 className="lead">Contact Details</h2>

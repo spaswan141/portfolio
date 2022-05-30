@@ -150,7 +150,7 @@ const About = ({ darkMode }) => {
 
                   <div>
                     <p>
-                      Shubham Paswan
+                       <span> </span>Shubham Paswan
                       <br /> Mandi Gobindgarh,Punjab
                       <br />{" "}
                       <strong style={{ fontWeight: "600" }}>7508707000</strong>
