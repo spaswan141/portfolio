@@ -93,20 +93,7 @@ const About = ({ darkMode }) => {
                   <Card.Text>
                     <p style={{ fontSize: "17px", fontWeight: "500",textAlign: "justify" }}>
                       Hello, I am Shubham Paswan , a student of Full Stack web
-                      Developer in Masai School.<br/>I had done my graduation from
-                      commerce Background. Before joining Masai, I was doing
-                      some job in private firm but during the job i became more
-                      interested in coding so i learned coding from YouTube and
-                      some other website. But learning from these sites were not
-                      giving me confidence about coding, then after that i
-                      joined Masai School. Now i have worked on several projects
-                      with the team during the course. Apart from hard skills, i
-                      also developed soft skills like team collaboration,Time
-                      Management,self confidence,Leadership. I am highly
-                      Innovative Optimized solution seeker.Excited to be at the
-                      deployment phase of my new career as a web Developer. I am
-                      ambitious ,adventurous,assiduous,animated and an
-                      alliteration advocate.
+                      Developer in Masai School.<br/>I graduted from Non-Tech Background But I have always been curious about technology, even as a child. I spent a lot of time around computers and that made me even more curious. After Graduation i worked as Cashier in Some Private Firm, during That time I decided that it was time to satiate my curiosity and dive into the world of coding.
                     </p>
                   </Card.Text>
 

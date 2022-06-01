@@ -7,6 +7,8 @@ import Button from 'react-bootstrap/esm/Button'
 import Container from 'react-bootstrap/esm/Container'
 import Row from 'react-bootstrap/esm/Row'
 import Col from 'react-bootstrap/Col'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faInstagramSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Contact = ({ darkMode }) => {
 const [templateParams, setTemplateParams] = useState({
         from_name: '',
@@ -19,7 +21,7 @@ const [templateParams, setTemplateParams] = useState({
 
     const onSubmit = async (e) => {
         e.preventDefault();
-        emailjs.send('service_vjuue5m', 'template_96clll8', templateParams, 'user_aGjlUxhHVrd2775oHAEb0')
+        emailjs.send('service_xpeyiz8', 'contact',templateParams,'VrtOCSMWt1vPzHizD')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
             }, (err) => {
@@ -52,6 +54,57 @@ const [templateParams, setTemplateParams] = useState({
                                 <br />
                                 <strong style={{fontWeight:"600"}}>paswanshubham0309@outlook.com</strong>
                             </p>
+                            <br/>
+                            <a
+                    className="social-icons"
+                    href="https://www.linkedin.com/in/shubham-paswan-1aa2ba237//"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <Button
+                      variant={darkMode ? "outline-light" : "outline-dark"}
+                    >
+                      <FontAwesomeIcon
+                        className="dark"
+                        size="lg"
+                        icon={faLinkedin}
+                      />
+                    </Button>
+                  </a>
+
+                  <a
+                    className="social-icons"
+                    href="https://github.com/spaswan141"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <Button
+                      variant={darkMode ? "outline-light" : "outline-dark"}
+                    >
+                      <FontAwesomeIcon
+                        className="dark"
+                        size="lg"
+                        icon={faGithub}
+                      />
+                    </Button>
+                  </a>
+
+                  <a
+                    className="social-icons"
+                    href="https://www.instagram.com/im_shubham_paswan/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <Button
+                      variant={darkMode ? "outline-light" : "outline-dark"}
+                    >
+                      <FontAwesomeIcon
+                        className="dark"
+                        size="lg"
+                        icon={faInstagramSquare}
+                      />
+                    </Button>
+                  </a>
                         </div>
 
 

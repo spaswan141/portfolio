@@ -1,6 +1,5 @@
 import React from "react";
 import { Slide } from "react-awesome-reveal";
-import skillsLight from "../media/sam.png";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/Col";

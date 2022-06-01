@@ -98,7 +98,7 @@ const Experience = ({ darkMode }) => {
                   <br />
                   <div>
                     <a
-                      href="clone-mamaearth.netlify.app/"
+                      href="https://clone-mamaearth.netlify.app/"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -272,7 +272,7 @@ const Experience = ({ darkMode }) => {
                   <br></br>
                   <div>
                     <a
-                      href="https://upbeat-saha-f5b7a4.netlify.app/index.html"
+                      href="https://upbeat-saha-f5b7a4.netlify.app"
                       target="_blank"
                       rel="noreferrer noopener"
                     >

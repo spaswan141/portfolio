@@ -10,7 +10,7 @@ const Home = ({ darkMode }) => {
             <AttentionSeeker shakeX>
                 <Row>
                     <Container align="center">
-                        <Col lg={14} xs={14}>
+                        <Col lg={10} xs={10}>
                             <br />
                         
                             <div className="img">
